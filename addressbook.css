@@ -23,14 +23,14 @@
 	position: absolute;
 	top: 0;
 	left: 232px;
-	right: 0;
+	right: 2px;
 	bottom: 0;
 	z-index: 3;
 }
 
 #addressbooktoolbar {
 	position: absolute;
-	top: -6px;
+	top: -12px;
 	left: 0;
 	height: 40px;
 	white-space: nowrap;
@@ -39,7 +39,7 @@
 
 #directorylistbox {
 	position: absolute;
-	top: 42px;
+	top: 30px;
 	left: 0;
 	width: 100%;
 	bottom: 0;
@@ -47,7 +47,7 @@
 
 #addresslist {
 	position: absolute;
-	top: 42px;
+	top: 30px;
 	left: 0;
 	width: 280px;
 	bottom: 0;
@@ -55,7 +55,7 @@
 
 #contacts-box {
 	position: absolute;
-	top: 42px;
+	top: 30px;
 	left: 292px;
 	right: 0;
 	bottom: 0;
