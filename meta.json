@@ -1,0 +1,8 @@
+{
+	"extends": "larry",
+	"name": "Larry for Netbook",
+	"author": "puzzle1536",
+	"url": "https://github.com/puzzle1536",
+	"license": "Creative Commons Attribution-ShareAlike",
+	"license-url": "http://creativecommons.org/licenses/by-sa/3.0/"
+}
