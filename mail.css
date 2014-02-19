@@ -741,7 +741,6 @@ h3.subject {
 
 .headers-table td.header,
 .ui-dialog-content.popup span.adr {
-	font-weight: bold;
 }
 
 .headers-table td.header-title {
@@ -952,22 +951,12 @@ div.hide-headers {
 
 #messagecontent .leftcol,
 #messagepreview .leftcol {
-	margin-right: 124px;
 	overflow-x: auto;
 }
 
 #messagecontent .rightcol,
 #messagepreview .rightcol {
-	float: right;
-/*
-	position: absolute;
-	top: 10px;
-	right: 10px;
-	height: 90%;
-*/
-	width: 120px;
 	margin: 0px;
-	min-height: 200px;
 	background: #f0f0f0;
 	padding: 2px;
 	border-radius: 4px;

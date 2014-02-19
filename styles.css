@@ -2108,13 +2108,15 @@ ul.toolbarmenu li span.conversation {
 	padding: 0;
 	overflow: hidden;
 	text-overflow: ellipsis;
+	display: inline;
 }
 
 .attachmentslist li {
-	display: block;
+	display: inline;
 	position: relative;
 	background: url(images/filetypes.png?v=3aa2.8551) 0 0 no-repeat;
 	margin-bottom: 1px;
+	padding: 5px;
 }
 
 .attachmentslist li.pdf {
@@ -2207,9 +2209,8 @@ ul.toolbarmenu li span.conversation {
 
 .attachmentslist li a,
 #compose-attachments ul li {
-	display: block;
+	display: inline;
 	color: #333;
-	font-weight: bold;
 	padding: 3px 4px 3px 30px;
 	text-shadow: 0px 1px 1px #fff;
 	text-decoration: none;
