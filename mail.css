@@ -1352,11 +1352,11 @@ div.message-partheaders .headers-table td.header {
 }
 
 #composebodycontainer {
-	position: absolute;
+/*	position: absolute;
 	top: 0;
-	left: 0;
+	left: 0; 
 	right: 140px;
-	bottom: 0;
+	bottom: 0;*/
 }
 
 #composebodycontainer.buttons {
@@ -1364,7 +1364,7 @@ div.message-partheaders .headers-table td.header {
 }
 
 #composebody {
-	position: absolute;
+/*	position: absolute;*/
 	top: 0;
 	left: 0;
 	bottom: 0;
@@ -1391,11 +1391,11 @@ div.message-partheaders .headers-table td.header {
 }
 
 #compose-attachments {
-	position: absolute;
+/*	position: absolute;*/
 	right: 0;
 	top: 1px;
 	bottom: 0;
-	width: 120px;
+/*	width: 120px; */
 	background: #f0f0f0;
 	border-style: solid;
 	border-color: #f0f0f0 #f0f0f0 #f0f0f0 #ddd;
@@ -1405,8 +1405,7 @@ div.message-partheaders .headers-table td.header {
 }
 
 #compose-attachments.droptarget {
-	background-image: url(images/filedrop.png?v=deab.605);
-	background-position: center bottom;
+	background-position: right bottom;
 	background-repeat: no-repeat;
 }
 

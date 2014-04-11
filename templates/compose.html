@@ -159,23 +159,12 @@
 
 <!-- message compose body -->
 <div id="composeview-bottom">
-	<div id="composebodycontainer">
-		<roundcube:object name="composeBody" id="composebody" form="form" cols="70" rows="20" tabindex="9" />
-	</div>
 	<div id="compose-attachments" class="rightcol">
-		<div style="text-align:center; margin-bottom:20px">
-			<roundcube:button name="addattachment" type="input" class="button" classSel="button pressed" label="addattachment" onclick="UI.show_uploadform();return false" />
-		</div>
+		<roundcube:button name="addattachment" type="input" class="button" classSel="button pressed" label="addattachment" onclick="UI.show_uploadform();return false" />
 		<roundcube:object name="composeAttachmentList" id="attachment-list" class="attachmentslist" />
 		<roundcube:object name="fileDropArea" id="compose-attachments" />
 	</div>
-<!--
-	<div id="composeformbuttons" class="footerleft formbuttons floating">
-		<roundcube:button type="input" command="send" class="button mainaction" label="sendmessage" tabindex="11" />
-		<roundcube:button type="input" command="savedraft" class="button" label="savemessage" tabindex="12" />
-		<roundcube:button type="input" command="list" class="button" label="cancel" tabindex="13" />
-	</div>
--->
+	<roundcube:object name="composeBody" id="composebody" form="form" cols="70" rows="20" tabindex="9" />
 </div>
 
 </form>
