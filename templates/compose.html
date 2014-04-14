@@ -18,19 +18,21 @@
 <div id="mailtoolbar" class="toolbar">
 	<roundcube:button command="list" type="link" class="button back disabled" classAct="button back" classSel="button back pressed" label="cancel" condition="!env:extwin" />
 	<roundcube:button command="close" type="link" class="button close disabled" classAct="button close" classSel="button close pressed" label="cancel" condition="env:extwin" />
-	<span class="spacer"></span>
+<!--	<span class="spacer"></span>-->
 	<roundcube:button command="send" type="link" class="button send" classAct="button send" classSel="button send pressed" label="send" title="sendmessage" />
 	<roundcube:button command="savedraft" type="link" class="button savedraft" classAct="button savedraft" classSel="button savedraft pressed" label="save" title="savemessage" />
-	<span class="spacer"></span>
+<!--	<span class="spacer"></span>-->
 	<roundcube:if condition="config:enable_spellcheck" />
 	<span class="dropbutton">
 		<roundcube:button command="spellcheck" type="link" class="button spellcheck disabled" classAct="button spellcheck" classSel="button spellcheck pressed" label="spellcheck" title="checkspelling" />
 		<span class="dropbuttontip" id="spellmenulink" onclick="UI.show_popup('spellmenu');return false"></span>
 	</span>
 	<roundcube:endif />
+<!--
 	<roundcube:button name="addattachment" type="link" class="button attach" classAct="button attach" classSel="button attach pressed" label="attach" title="addattachment" onclick="UI.show_uploadform();return false" />
 	<roundcube:button command="insert-sig" type="link" class="button insertsig disabled" classAct="button insertsig" classSel="button insertsig pressed" label="signature" title="insertsignature" />
 	<a href="#responses" class="button responses" label="responses" title="<roundcube:label name='insertresponse' />" id="responsesmenulink" unselectable="on" onmousedown="return false" onclick="UI.show_popup('responsesmenu');return false"><roundcube:label name="responses" /></a>
+-->
 	<roundcube:container name="toolbar" id="compose-toolbar" />
 </div>
 </div>
@@ -158,13 +160,13 @@
 
 <!-- message compose body -->
 <div id="composeview-bottom">
+<!--
 	<div id="composebodycontainer">
 		<roundcube:object name="composeBody" id="composebody" form="form" cols="70" rows="20" tabindex="9" />
 	</div>
+-->
 	<div id="compose-attachments" class="rightcol">
-		<div style="text-align:center; margin-bottom:20px">
-			<roundcube:button name="addattachment" type="input" class="button" classSel="button pressed" label="addattachment" onclick="UI.show_uploadform();return false" />
-		</div>
+		<roundcube:button name="addattachment" type="input" class="button" classSel="button pressed" label="addattachment" onclick="UI.show_uploadform();return false" />
 		<roundcube:object name="composeAttachmentList" id="attachment-list" class="attachmentslist" />
 		<roundcube:object name="fileDropArea" id="compose-attachments" />
 	</div>
@@ -175,6 +177,7 @@
 		<roundcube:button type="input" command="list" class="button" label="cancel" tabindex="13" />
 	</div>
 -->
+	<roundcube:object name="composeBody" id="composebody" form="form" cols="70" rows="20" tabindex="9" />
 </div>
 
 </form>

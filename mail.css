@@ -23,7 +23,7 @@
 	position: absolute;
 	top: 0;
 	left: 232px;
-	right: 0;
+	right: 2px;
 	bottom: 0;
 	z-index: 3;
 }
@@ -34,7 +34,7 @@
 
 #mailview-top {
 	position: absolute;
-	top: 42px;
+	top: 30px;
 	left: 0;
 	right: 0;
 	bottom: 0px;
@@ -59,7 +59,7 @@
 #mailboxcontainer,
 #messagelistcontainer {
 	position: absolute;
-	top: 42px;
+	top: 30px;
 	left: 0;
 	width: 100%;
 	bottom: 0;
@@ -417,7 +417,7 @@ a.iconbutton.threadmode.selected {
 
 #messagetoolbar {
 	position: absolute;
-	top: -6px;
+	top: -12px;
 	left: 0;
 	height: 40px;
 	white-space: nowrap;
@@ -425,7 +425,7 @@ a.iconbutton.threadmode.selected {
 }
 
 #messagetoolbar.fullwidth {
-	right: 0;
+/*	right: 0; */
 }
 
 #messagesearchtools {
@@ -818,7 +818,7 @@ h3.subject {
 
 .headers-table td.header,
 .ui-dialog-content.popup span.adr {
-	font-weight: bold;
+/*	font-weight: bold;*/
 }
 
 .headers-table td.header-title {
@@ -1035,24 +1035,15 @@ div.hide-headers {
 
 #messagecontent .leftcol,
 #messagepreview .leftcol {
-	margin-right: 252px;
+/*	margin-right: 252px;*/
 	overflow-x: auto;
 }
 
 #messagecontent .rightcol,
 #messagepreview .rightcol {
-	float: right;
-/*
-	position: absolute;
-	top: 10px;
-	right: 10px;
-	height: 90%;
-*/
-	width: 230px;
-	margin: 8px;
-	min-height: 200px;
+	margin: 0px;
 	background: #f0f0f0;
-	padding: 8px;
+	padding: 2px;
 	border-radius: 4px;
 }
 
@@ -1253,13 +1244,13 @@ div.message-partheaders .headers-table td.header {
 	position: absolute;
 	top: 0;
 	left: 262px;
-	right: 0;
+	right: 2px;
 	bottom: 0;
 }
 
 #compose-contacts {
 	position: absolute;
-	top: 42px;
+	top: 30px;
 	left: 0;
 	width: 100%;
 	bottom: 0;
@@ -1362,7 +1353,7 @@ div.message-partheaders .headers-table td.header {
 
 #compose-content {
 	position: absolute;
-	top: 42px;
+	top: 2px;
 	left: 0;
 	right: 0;
 	bottom: 0px;
@@ -1397,7 +1388,7 @@ div.message-partheaders .headers-table td.header {
 }
 
 .compose-headers td.title {
-	width: 11%;
+	width: 3%;
 	white-space: nowrap;
 	padding-left: 6px;
 }
@@ -1480,12 +1471,12 @@ div.message-partheaders .headers-table td.header {
 }
 
 #composebodycontainer {
-	position: absolute;
+/*	position: absolute;
 	top: 0;
 	left: 0;
 	right: 260px;
 	bottom: 0;
-	border-radius: 0 0 0 4px;
+	border-radius: 0 0 0 4px;*/
 }
 
 #composebodycontainer.buttons {
@@ -1493,7 +1484,7 @@ div.message-partheaders .headers-table td.header {
 }
 
 #composebody {
-	position: absolute;
+/*	position: absolute;*/
 	top: 0;
 	left: 0;
 	bottom: 0;
@@ -1520,11 +1511,11 @@ div.message-partheaders .headers-table td.header {
 }
 
 #compose-attachments {
-	position: absolute;
+/*	position: absolute;*/
 	right: 0;
 	top: 1px;
 	bottom: 0;
-	width: 240px;
+/*	width: 240px;*/
 	background: #f0f0f0;
 	border-style: solid;
 	border-color: #f0f0f0 #f0f0f0 #f0f0f0 #ddd;
@@ -1534,8 +1525,8 @@ div.message-partheaders .headers-table td.header {
 }
 
 #compose-attachments.droptarget {
-	background-image: url(images/filedrop.png?v=deab.605);
-	background-position: center bottom;
+/*	background-image: url(images/filedrop.png?v=deab.605);*/
+	background-position: right bottom;
 	background-repeat: no-repeat;
 }
 
