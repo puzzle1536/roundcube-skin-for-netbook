@@ -523,8 +523,8 @@ function rcube_mail_ui()
     bottom.css('height', Math.max(minheight, bh) + 'px');
     form.css('overflow', ovflw > 0 ? 'auto' : 'hidden');
 
-    w = body.parent().width() - 10;
-    h = body.parent().height() - 50;
+    w = body.parent().parent().width() - 10;
+    h = body.parent().parent().height() - 50;
     body.width(w).height(h);
 
     $('#composebody_tbl').width((w+8)+'px').height('').css('margin-top', '1px');

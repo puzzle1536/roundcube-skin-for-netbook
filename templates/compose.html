@@ -160,11 +160,6 @@
 
 <!-- message compose body -->
 <div id="composeview-bottom">
-<!--
-	<div id="composebodycontainer">
-		<roundcube:object name="composeBody" id="composebody" form="form" cols="70" rows="20" tabindex="9" />
-	</div>
--->
 	<div id="compose-attachments" class="rightcol">
 		<roundcube:button name="addattachment" type="input" class="button" classSel="button pressed" label="addattachment" onclick="UI.show_uploadform();return false" />
 		<roundcube:object name="composeAttachmentList" id="attachment-list" class="attachmentslist" />
@@ -177,7 +172,9 @@
 		<roundcube:button type="input" command="list" class="button" label="cancel" tabindex="13" />
 	</div>
 -->
-	<roundcube:object name="composeBody" id="composebody" form="form" cols="70" rows="20" tabindex="9" />
+	<div id="composebodycontainer">
+		<roundcube:object name="composeBody" id="composebody" form="form" cols="70" rows="20" tabindex="9" />
+	</div>
 </div>
 
 </form>
